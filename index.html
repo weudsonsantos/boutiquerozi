@@ -54,7 +54,7 @@
         <p>&copy; 2023 Boutique da Rozi. Todos os direitos reservados.</p>
     </footer>
 
-    <a href="https://api.whatsapp.com/send?phone=55992042091" target="_blank" class="whatsapp-float">
+    <a href="https://api.whatsapp.com/send?phone=5563992042091" target="_blank" class="whatsapp-float">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -62,7 +62,7 @@
         function redirecionarParaWhatsApp(nomeProduto, preco, disponibilidade, estoque) {
             if (disponibilidade === 'Disponível' && estoque > 0) {
                 var mensagem = 'Olá, tenho interesse no produto: ' + nomeProduto + '\nPreço: ' + preco;
-                var numeroWhatsApp = '55992042091';
+                var numeroWhatsApp = '5563992042091';
                 var linkWhatsApp = 'https://api.whatsapp.com/send?phone=' + numeroWhatsApp + '&text=' + encodeURIComponent(mensagem);
                 window.location.href = linkWhatsApp;
             } else {
